@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Planner Chapter 4</title>
+<script src="script.js"></script>
+<link rel="stylesheet" href="bootstrap.min.css" /> <!--used boostrap for css template-->
+<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="sidenav"><!--navigation bar when click will show contents.-->
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><!--simple js script. void operator is used here, so the href when click will stay in the same page. -->
+<a href="wireframe.html" target="_blank">Wireframe</a>
+<a href="#">Assessments</a>
+<a href="#">Lecture</a>
+<a href="#">Contact Ms.</a>
+</div>
+<div class="dropDownMenu">
+  <!--a little bit of js script here, i hope Ms consider this as a button.-->
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<!------------------------------------------------------------------------------------->
+<header class="titleHeader">
+<h1 class="title">Study Planner</h1>
+<p class="titleP">Web Development Course</p>
+<div class="info">
+<ul>
+<li class="searchy"><a href="#">Search</a></li>
+<li><a href="#">Online Support</a></li>
+<li><a href="#">Report Issue</a></li>
+</ul>
+<p>Tel: xxxxx xxxxxxxxxx | Mail: info@example.com</p>
+</div>
+</header>
+<div class ="someBtn">
+  <a href="#">Make Plan</a>
+</div>
+<header class="slideShow">
+<div class="slidershow middle">
+<!--this particular section is made for the navigation bar in the image. Made 2 div class, one is responsible for changing the images (slides). One is the design and placements for the navbar (navigation)-->
+<div class="slides">
+  <!--used radio type here so the user can only click it once, button or checkbox won't work here as intended. This section determines the whole nav bar.-->
+<input type="radio" name="r" id="r1">
+<input type="radio" name="r" id="r2">
+<input type="radio" name="r" id="r3">
+<input type="radio" name="r" id="r4">
+<input type="radio" name="r" id="r5">
+
+
+<div class="navigation">
+  <!--changes the appearance for each nav bar-->
+<label for="r1" class="bar"></label>
+<label for="r2" class="bar"></label>
+<label for="r3" class="bar"></label>
+<label for="r4" class="bar"></label>
+<label for="r5" class="bar"></label>
+</div>
+<div class="slide s1">
+<img src="img/ab01.png" alt="HTML iNTRODUCTION CHAPTER 1">
+</a>
+</div>
+<div class="slide">
+<img src="img/ab02.png" alt="LINKS AND NAVIGATION CHAPTER 3">
+</a>
+</div>
+<div class="slide">
+<img src="img/ab03.png" alt="JS AND CANVAS">
+</a>
+</div>
+<div class="slide">
+<img src="img/ab04.png" alt="SCRIPTING WITH JS (MOVEMENT)">
+</a>
+</div>
+<div class="slide">
+<img src="img/ab05.jpg" alt="SOME RANDOM ANIME JS ">
+</a>
+</div>
+</div>
+</div>
+</header>
+
+<!---------------------------------------------------------------------------------------->
+<header class="mainContent">
+  <div class="wrapper col4">
+    <div id="container">
+      <div id="hpage">
+        <ul>
+          <li>
+            <h2>Main Content Title</h2>
+            <div class="imgholder"><a href="#"><img src="img/Sakura_Nene_CPP.jpg" alt="" /></a></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </li>
+          <li>
+            <h2>Main Content Title</h2>
+            <div class="imgholder"><a href="#"><img src="img/Sakura_Nene_CPP.jpg" alt="" /></a></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </li>
+          <li>
+            <h2>Main Content Title</h2>
+            <div class="imgholder"><a href="#"><img src="img/Sakura_Nene_CPP.jpg" alt="" /></a></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </li>
+          <li>
+            <h2>Main Content Title</h2>
+            <div class="imgholder"><a href="#"><img src="img/Sakura_Nene_CPP.jpg" alt="" /></a></div>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+      </header>
+<footer>
+  <div class="mainFooter">
+<p>&copy; Copyrights <strong>Study Planner</strong>. All Rights Reserved.</p>
+</div>
+</footer>
+</body>
+</html>
