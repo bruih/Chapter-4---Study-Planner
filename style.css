@@ -1,4 +1,12 @@
-body{margin:0; padding:0; font-size:12px; font-family:verdana, Arial, Helvetica, sans-serif; color:#333333; background-color:#FFFFFF; overflow-x: hidden;}
+body{
+	margin:0; 
+	padding:0; 
+	font-size:12px;
+	 font-family:verdana, Arial, Helvetica, sans-serif; 
+	 color:#333333; 
+	 background-color:#FFFFFF; 
+	 overflow-x: hidden;
+	}
 
 .sidenav {
   height: 100%;
@@ -44,11 +52,6 @@ body{margin:0; padding:0; font-size:12px; font-family:verdana, Arial, Helvetica,
 	left: 10px;
 }
 
-.mainContent{
-	position: absolute;
-	top: 730px;
-	left: 470px;
-}
 .slideShow {
 	position: absolute;
 	top: 450px;
@@ -178,48 +181,47 @@ footer{
 	position: relative;
 }
 
-
-.col4 a{
+.mainContent{
+	position: absolute;
+	top: 730px;
+	left: 470px;
+}
+.col a{
 	color:black; 
 }
 
-div.wrapper{display:block;
-	 width:100%; 
-	 margin:0; 
-	 padding:0; 
-	 text-align:left;
-	}
-
- div.wrapper h2 {
+ div.col h2 {
 	font-size:20px; 
 	 font-family:Georgia, "Times New Roman", Times, serif;
 	}
 
-#hpage ul{
+.container ul{
 	margin:0; 
 	padding:0; 
 }
 
-#hpage li{
+.container li{
+	margin:0 40px 0 0;
+	  padding:0;
 	 float:left; 
 	 width:210px; 
-	 margin:0 40px 0 0;
-	  padding:0;
+	 
 	}
 
-#hpage li div.imgholder{
+.container li div.imgholder{
 	margin:0 0 10px 0; 
 	padding:4px; 
 	background-color:#EDECE4;
 	 border:1px solid #BEBB9E;
 	}
 	
-#hpage p{
+.container p{
 	margin:0 0 10px 0;
 	 padding:0; 
-	 line-height:1.8em;}
+	 line-height:1.8em;
+	}
 
-#hpage p.readmore{
+.container p.readmore{
 	font-weight:bold;
 }
 
